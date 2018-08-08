@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+/* Header*/
+.header {
+	text-align: center;
+    background: white;
+    padding: 30px;
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+/* Content */
+.topnav {
+	overflow: hidden;
+    background: black;
+}
+.topnav a {
+	text-decoration: none;
+    color: white;
+    float: left;
+    padding: 14px 20px;
+    text-align: center;
+    /*display: block;*/
+}
+
+.topnav a:hover {
+	background: #f1f1f1;
+    color: black;
+}
+
+/* left column */
+.leftcolumn {
+	width: 75%;
+    float: left;
+}
+
+/* right column */
+.rightcolumn {
+	width: 25%;
+    float: left;
+    
+    padding-left: 10px;
+   
+}
+
+.card {
+    padding: 5px 15px;
+    background-color: white;
+    
+}
+
+.row::after {
+	clear: both;
+    content: "";
+    display: table;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
